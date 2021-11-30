@@ -6,10 +6,6 @@
 
 Reflection allows us to inspect and manipulate classes, interfaces, constructors, methods, and fields at run time.
 
-> NOTE: Reflection is an advanced feature to be meddle with if one doesn't clearly know what exactly is that they want. Using Reflection and not handling it carefully will break the program.
-
-_"Introspect: A reflective looking inward an examination of one's own thoughts and feelings."_
-
 ### Why Reflection API ?
 
 Reflection is an API which is used to examine or modify the behavior of methods, classes, interfaces at runtime.
