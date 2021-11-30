@@ -5,7 +5,7 @@ class PersonClass{
   Integer age;
 
  PersonClass(){
-    this.name = "Shivaji";
+    this.name = "Yakeen";
     this.age = 25;
   }
 
