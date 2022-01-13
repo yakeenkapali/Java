@@ -3,10 +3,6 @@ import javax.swing.*;
 
 public class LayoutManagerWithPanel{
 
-
-
-    
-
     LayoutManagerWithPanel(){
 
         JFrame frame = new JFrame(); 
