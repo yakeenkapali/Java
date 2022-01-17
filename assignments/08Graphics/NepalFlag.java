@@ -8,7 +8,7 @@ class NepalFlag extends Frame
 
 	public NepalFlag()
 	{
-		super("Triangle and Flags");
+		super("Nepal Flag");
 		setSize(900, 1000);
 		setVisible(true);
 	}
