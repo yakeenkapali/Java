@@ -3,6 +3,7 @@
 ### 1(a). Discuss the features of Java Programming. Why Java is popular than C/C++ ?
 
 a) **Object Oriented**
+<br />
 	 - In Java, everything is an Object. Java can be easily extended since it is based on the Object model.
 
 b) **Platform Independent**
