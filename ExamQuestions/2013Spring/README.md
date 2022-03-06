@@ -44,17 +44,58 @@ Interface is declared by using the interface keyword. It provides total abstract
 
 **(i) Access Protection Mechanism**
 
-*Private*
+*(a) Private*
 <br />
 The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
 
 ```ruby
-public class Simple{  
- public static void main(String args[]){  
-   A obj=new A();  
-   System.out.println(obj.data);//Compile Time Error  
-   obj.msg();//Compile Time Error  
-   }  
-```
+	
+	class A{
+		private int num = 10;
+		
+		private void message(){
+			System.out.println("Private Content ahead.");
+		}
+	}
+	
+	class B{
+		public static void main (String[] args){
+			A obj = new A();
+			System.out.println(obj.num); // Compile time Error
+			obj.message(); // Compile time Error
+		}
+	}
 
+```
+In this example, we have created two classes A and B. A class contains private data member and private method. We are accessing these private members from outside the class, so there is a compile-time error.
+
+*(b) Default*
+<br />
+If we don't use any modifier, it is treated as default by default. The default modifier is accessible only within package. It cannot be accessed from outside the package. It provides more accessibility than private. But, it is more restrictive than protected, and public. 
+
+
+```ruby
+
+	// A.java
+	package packA;
+	
+	class A{
+		void message(){
+			System.out.println("Private Content ahead.");
+		}
+	}
+	
+	// B.java
+	package packB;
+	import packA*;
+	
+	class B{
+		public static void main (String[] args){
+			A obj = new A();
+			obj.message(); // Compile time Error
+		}
+	}
+
+```
+In this example, the scope of class A and its method message() is default so it cannot be accessed from outside the package.
 
