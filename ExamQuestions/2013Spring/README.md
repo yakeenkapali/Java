@@ -1,6 +1,6 @@
 # 2013 Spring JAVA Question Paper
 
-## 1(a). Discuss the features of Java Programming. Why Java is popular than C/C++ ?
+### 1(a). Discuss the features of Java Programming. Why Java is popular than C/C++ ?
 
 a) **Object Oriented**
 	 - In Java, everything is an Object. Java can be easily extended since it is based on the Object model.
@@ -26,7 +26,7 @@ When C/C++ is compiled, it is compiled into platform specific machine. But when 
 
 Java is considered to be more dynamic than C or C++ since it is designed to adapt to an evolving environment. Java programs can carry an extensive amount of run-time information that can be used to verify and resolve accesses to objects at run-time.
 
-## 1(b). What do you mean by interface? How do you implement interface in java. Explain with example.
+### 1(b). What do you mean by interface? How do you implement interface in java. Explain with example.
 
 Interface is a mechanism to achieve an abstraction. There can only be abstract class in interface, not method body. It is used to achieve multiple inheritance.
 
@@ -34,6 +34,8 @@ Interface is a mechanism to achieve an abstraction. There can only be abstract c
 
 Interface is declared by using the interface keyword. It provides total abstraction which means all the method in an interface are declared with empty body and all the fiels are public, static, final by default. A class that implements an Interface must implement all the methods declared in the interface.
 
-## 2(a). Explain with examples.
-## -(i) Access Protection Mechanism
-## -(ii) Iner Classes 
+### 2(a). Explain with examples.	(i) Access Protection Mechanism (ii) Iner Classes 
+
+**(i) Access Protection Mechanism**
+
+
