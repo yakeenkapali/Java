@@ -19,7 +19,8 @@ e) **Robust**
 
 f) **Portable**
 	- Being architecture-neutral and having no implementation dependent aspects of the specification makes Java portable. The compiler in Java is written in ANSI C with a clean portability boundary, which is a POSIX subset.
-
+-ckvxckv
+-cjkzkz
 > Why Java is popular than C/C++?
 
 When C/C++ is compiled, it is compiled into platform specific machine. But when java is compiled, it is compiled into platform-independent byte code. This byte code is distributed over the web and interpreted by the Virtual Machine (JVM) on whichever platform it is being run on. 
