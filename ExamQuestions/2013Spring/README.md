@@ -42,7 +42,7 @@ Interface is declared by using the interface keyword. It provides total abstract
 
 ### 2(a). Explain with examples.
 
-**(i) Access Protection Mechanism**
+**(I) Access Protection Mechanism**
 
 *(a) Private*
 <br />
@@ -81,7 +81,7 @@ If we don't use any modifier, it is treated as default by default. The default m
 	
 	class A{
 		void message(){
-			System.out.println("Private Content ahead.");
+			System.out.println("Default Content ahead.");
 		}
 	}
 	
@@ -99,3 +99,83 @@ If we don't use any modifier, it is treated as default by default. The default m
 ```
 In this example, the scope of class A and its method message() is default so it cannot be accessed from outside the package.
 
+*(c) Protected*
+
+The protected access modifier is accessible within package and outside the package but through inheritance only. It provides more accessiblity than default modifier.
+
+
+```ruby
+	
+	//A.java
+	class A{
+		protected int num = 10;
+		
+		protected void message(){
+			System.out.println("Protected Content ahead.");
+		}
+	}
+	
+	//B.java
+	class B extends A{
+		public static void main (String[] args){
+			B obj = new B();
+			System.out.println(obj.num); 
+			obj.message();
+		}
+	}
+
+```
+
+In this example, we have created two classes A and B. A class contains protected data member and private method. We are accessing these protected members from outside the class.
+
+*(d) Public*
+
+The public access modifier is accessible everywhere. It has the widest scope among all other modifiers.
+
+
+```ruby
+
+	// A.java
+	package packA;
+	
+	class A{
+		public void message(){
+			System.out.println("Public Content ahead.");
+		}
+	}
+	
+	// B.java
+	package packB;
+	import packA*;
+	
+	class B{
+		public static void main (String[] args){
+			A obj = new A();
+			obj.message(); // Compile time Error
+		}
+	}
+
+```
+In this example, the scope of class A and its method message() is public so it can be accessed from outside the package.
+
+
+**(II) Inner Classes**
+
+Java inner class or nested class is a class that is declared inside the class or interface. Additionally, it can access all the members of the outer class, including private data members and methods.
+
+>Advantages of Inner Classes
+
+- Nested classes represent a particular type of relationship that is it can access all the members (data members and methods) of the outer class, including private.
+- Nested classes are used to develop more readable and maintainable code because it logically group classes and interfaces in one place only.
+- Code Optimization: It requires less code to write.
+
+````ruby
+	
+	class OuterClass{  
+     //code  
+    class InnerClass{  
+      //code  
+     }  
+    }  
+	
+````
