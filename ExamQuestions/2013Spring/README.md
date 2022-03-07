@@ -1,6 +1,6 @@
 # 2013 Spring JAVA Question Paper
 
-### 1(a). Discuss the features of Java Programming. Why Java is popular than C/C++ ?
+### 1. a) Discuss the features of Java Programming. Why Java is popular than C/C++ ?
 
 a) **Object Oriented**
 <br />
@@ -32,7 +32,7 @@ When C/C++ is compiled, it is compiled into platform specific machine. But when 
 
 Java is considered to be more dynamic than C or C++ since it is designed to adapt to an evolving environment. Java programs can carry an extensive amount of run-time information that can be used to verify and resolve accesses to objects at run-time.
 
-### 1(b). What do you mean by interface? How do you implement interface in java. Explain with example.
+### 1. b) What do you mean by interface? How do you implement interface in java. Explain with example.
 
 Interface is a mechanism to achieve an abstraction. There can only be abstract class in interface, not method body. It is used to achieve multiple inheritance.
 
@@ -40,7 +40,7 @@ Interface is a mechanism to achieve an abstraction. There can only be abstract c
 
 Interface is declared by using the interface keyword. It provides total abstraction which means all the method in an interface are declared with empty body and all the fiels are public, static, final by default. A class that implements an Interface must implement all the methods declared in the interface.
 
-### 2(a). Explain with examples.
+### 2. a) Explain with examples.
 
 **(I) Access Protection Mechanism**
 
@@ -179,3 +179,64 @@ Java inner class or nested class is a class that is declared inside the class or
     }  
 	
 ````
+### 2. b) Explain Various stream classes available in Java. Write a program using any stream classes for writing text to a file.
+
+### 3. a) What does security restriction means in applet? List out the attributes of applet tag and explain them.
+
+One of the main goals of the Java environment is to make browser users feel secure running any applet. To achieve this goal, we've started out conservatively, restricting capabilities perhaps more than necessary. As time passes, applets will probably get more and more abilities. 
+
+Each applet viewer has a SecurityManager object that checks for applet security violations. When a SecurityManager detects a violation, it creates and throws a SecurityException object. Generally, the SecurityException constructor prints a warning message to the standard output. An applet can catch SecurityExceptions and react appropriately, such as by reassuring the user and by resorting to a "safer" (but less ideal) way of accomplishing the task. 
+
+> List out the attributes of applet tag and explain them.
+
+- height : Defines height of applet
+- width: Defines width of applet
+- align: Defines the text alignment around the applet
+- alt: An alternate text to be displayed if the browser support applets but cannot run this applet
+- archive: A URL to the applet when it is stored in a Java Archive or ZIP file
+- code: A URL that points to the class of the applet
+- codebase: Indicates the base URL of the applet if the code attribute is relative
+- hspace: Defines the horizontal spacing around the applet
+- vspace: Defines the vertical spacing around the applet
+- name: Defines a name for an applet
+- object: Defines the resource name that contains a serialized representation of the applet
+- title: Display information in tool tip
+
+	
+### 3. b) Write a program to create a frame in swing. The frame should contain three text fields with labels arg1, arg2 and result respectively, a menu called file with sub menus add, subtract and close.
+
+### 4. a) Explain the Layout Manager in detail. Write a program to change the font of text in textfield of the Frame. The frame contains 3 checkboxes named bold, italic and plain.
+
+The LayoutManagers are used to arrange components in a particular manner. The Java LayoutManagers facilitates us to control the positioning and size of the components in GUI forms. LayoutManager is an interface that is implemented by all the classes of layout managers. There are the following classes that represent the layout managers:
+
+-java.awt.BorderLayout
+-java.awt.FlowLayout
+-java.awt.GridLayout
+-java.awt.CardLayout
+-java.awt.GridBagLayout
+-javax.swing.BoxLayout
+-javax.swing.GroupLayout
+-javax.swing.ScrollPaneLayout
+-javax.swing.SpringLayout etc.
+
+
+### 4. b)Write a simple GUI addition application that used two input dialogs to obtain integers from the user and a message dialog to display the sum. 
+
+### 5. a) What is socket? Write a program to find local IP Address & Hostname of the system.
+
+### 5. b) Explain URL and URL connection class with suitable program.
+
+### 6. a) Write a program to connect to a database using JDBC. Assume that database name is test Db and it has table named employee with 2 records.
+
+### 6. b) Explain different types of JDBC drives. 
+
+**API** is the Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you're using an API.
+
+**JDBC** stands for Java Database Connectivity, which is a standard Java API for database-independent connectivity between the Java programming language and a wide range of databases.
+
+**JDBC API** is a Java API that can access any kind of tabular data, especially data stored in a Relational Database. JDBC works with Java on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX.
+
+
+
+
+### 7. Write short notes on: a) Casting abstract class b) Life Cycle of Applet c) Frame Layout.
