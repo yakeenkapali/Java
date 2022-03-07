@@ -189,18 +189,18 @@ Each applet viewer has a SecurityManager object that checks for applet security 
 
 > List out the attributes of applet tag and explain them.
 
-- height : Defines height of applet
-- width: Defines width of applet
-- align: Defines the text alignment around the applet
-- alt: An alternate text to be displayed if the browser support applets but cannot run this applet
-- archive: A URL to the applet when it is stored in a Java Archive or ZIP file
-- code: A URL that points to the class of the applet
-- codebase: Indicates the base URL of the applet if the code attribute is relative
-- hspace: Defines the horizontal spacing around the applet
-- vspace: Defines the vertical spacing around the applet
-- name: Defines a name for an applet
-- object: Defines the resource name that contains a serialized representation of the applet
-- title: Display information in tool tip
+- **height**: Defines height of applet
+- **width**: Defines width of applet
+- **align**: Defines the text alignment around the applet
+- **alt**: An alternate text to be displayed if the browser support applets but cannot run this applet
+- **archive**: A URL to the applet when it is stored in a Java Archive or ZIP file
+- **code**: A URL that points to the class of the applet
+- **codebase**: Indicates the base URL of the applet if the code attribute is relative
+- **hspace**: Defines the horizontal spacing around the applet
+- **vspace**: Defines the vertical spacing around the applet
+- **name**: Defines a name for an applet
+- **object**: Defines the resource name that contains a serialized representation of the applet
+- **title**: Display information in tool tip
 
 	
 ### 3. b) Write a program to create a frame in swing. The frame should contain three text fields with labels arg1, arg2 and result respectively, a menu called file with sub menus add, subtract and close.
@@ -209,15 +209,15 @@ Each applet viewer has a SecurityManager object that checks for applet security 
 
 The LayoutManagers are used to arrange components in a particular manner. The Java LayoutManagers facilitates us to control the positioning and size of the components in GUI forms. LayoutManager is an interface that is implemented by all the classes of layout managers. There are the following classes that represent the layout managers:
 
--java.awt.BorderLayout
--java.awt.FlowLayout
--java.awt.GridLayout
--java.awt.CardLayout
--java.awt.GridBagLayout
--javax.swing.BoxLayout
--javax.swing.GroupLayout
--javax.swing.ScrollPaneLayout
--javax.swing.SpringLayout etc.
+- java.awt.BorderLayout
+- java.awt.FlowLayout
+- java.awt.GridLayout
+- java.awt.CardLayout
+- java.awt.GridBagLayout
+- javax.swing.BoxLayout
+- javax.swing.GroupLayout
+- javax.swing.ScrollPaneLayout
+- javax.swing.SpringLayout etc.
 
 
 ### 4. b)Write a simple GUI addition application that used two input dialogs to obtain integers from the user and a message dialog to display the sum. 
