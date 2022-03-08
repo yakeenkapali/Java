@@ -230,6 +230,8 @@ Each applet viewer has a SecurityManager object that checks for applet security 
 	
 ### 3. b) Write a program to create a frame in swing. The frame should contain three text fields with labels arg1, arg2 and result respectively, a menu called file with sub menus add, subtract and close.
 
+[Menu and Textfield][https://github.com/yakeenkapali/Java/blob/master/ExamQuestions/2013Spring/Codes/MenuTextfield.java]
+
 ### 4. a) Explain the Layout Manager in detail. Write a program to change the font of text in textfield of the Frame. The frame contains 3 checkboxes named bold, italic and plain.
 
 The LayoutManagers are used to arrange components in a particular manner. The Java LayoutManagers facilitates us to control the positioning and size of the components in GUI forms. LayoutManager is an interface that is implemented by all the classes of layout managers. There are the following classes that represent the layout managers:
@@ -244,8 +246,12 @@ The LayoutManagers are used to arrange components in a particular manner. The Ja
 - javax.swing.ScrollPaneLayout
 - javax.swing.SpringLayout etc.
 
+>Write a program to change the font of text in textfield of the Frame. The frame contains 3 checkboxes named bold, italic and plain.
+[Change Font][https://github.com/yakeenkapali/Java/blob/master/ExamQuestions/2013Spring/Codes/ChangeFont.java]
 
-### 4. b)Write a simple GUI addition application that used two input dialogs to obtain integers from the user and a message dialog to display the sum. 
+### 4. b)Write a simple GUI addition application that used two input dialogs to obtain integers from the user and a message dialog to display the sum.
+
+[Add Integer][https://github.com/yakeenkapali/Java/blob/master/ExamQuestions/2013Spring/Codes/AddIntegers.java]
 
 ### 5. a) What is socket? Write a program to find local IP Address & Hostname of the system.
 
@@ -255,7 +261,7 @@ Uses :
 - Connection Instantiate || connection-oriented
 - Communictaion between two application
 
-[a link](https://github.com/yakeenkapali/Java/tree/master/ExamQuestions/2013Spring)
+[Display IP Address and Hostname](https://github.com/yakeenkapali/Java/blob/master/ExamQuestions/2013Spring/Codes/DisplayHostname.java)
 
 ### 5. b) Explain URL and URL connection class with suitable program.
 
