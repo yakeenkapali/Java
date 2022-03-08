@@ -224,6 +224,14 @@ The LayoutManagers are used to arrange components in a particular manner. The Ja
 
 ### 5. a) What is socket? Write a program to find local IP Address & Hostname of the system.
 
+End point for communication between two application running on different JRE is called Socket.
+
+Uses : 
+- Connection Instantiate || connection-oriented
+- Communictaion between two application
+
+[a link](https://github.com/yakeenkapali/Java/tree/master/ExamQuestions/2013Spring)
+
 ### 5. b) Explain URL and URL connection class with suitable program.
 
 ### 6. a) Write a program to connect to a database using JDBC. Assume that database name is test Db and it has table named employee with 2 records.
