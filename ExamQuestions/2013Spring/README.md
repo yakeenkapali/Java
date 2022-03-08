@@ -1,4 +1,29 @@
-# 2013 Spring JAVA Question Paper
+````
+2013 Spring JAVA Question Paper
+
+1. a) Discuss the features of Java Programming. Why Java is popular than C/C++ ?
+1. b) What do you mean by interface? How do you implement interface in java. Explain with example.
+
+2. a) Explain with examples.
+(I) Access Protection Mechanism**
+(II) Inner Classes**
+2. b) Explain Various stream classes available in Java. Write a program using any stream classes for writing text to a file.
+
+3. a) What does security restriction means in applet? List out the attributes of applet tag and explain them.
+3. b) Write a program to create a frame in swing. The frame should contain three text fields with labels arg1, arg2 and result respectively, a menu called file with sub menus add, subtract and close.
+
+4. a) Explain the Layout Manager in detail. Write a program to change the font of text in textfield of the Frame. The frame contains 3 checkboxes named bold, italic and plain.
+4. b)Write a simple GUI addition application that used two input dialogs to obtain integers from the user and a message dialog to display the sum. 
+
+5. a) What is socket? Write a program to find local IP Address & Hostname of the system.
+5. b) Explain URL and URL connection class with suitable program.
+
+6. a) Write a program to connect to a database using JDBC. Assume that database name is test Db and it has table named employee with 2 records.
+6. b) Explain different types of JDBC drives. 
+
+7. Write short notes on: a) Casting abstract class b) Life Cycle of Applet c) Frame Layout.
+
+````
 
 ### 1. a) Discuss the features of Java Programming. Why Java is popular than C/C++ ?
 
