@@ -13,3 +13,9 @@ public class DisplayHostname{
 	  }
    }
 }
+
+/*
+	Line No 7 : InetAddress my_address = InetAddress.getLocalHost();
+	
+	InetAddress.getlocalHost(); = Calling Static Method of InetAddress
+*/

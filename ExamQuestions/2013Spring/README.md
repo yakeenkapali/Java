@@ -265,6 +265,12 @@ Uses :
 
 ### 5. b) Explain URL and URL connection class with suitable program.
 
+The Java URL class represents an URL. URL is an acronym for Uniform Resource Locator. It points to a resource on the World Wide Web.
+<br />
+The Java URLConnection class represents a communication link between the URL and the application. It can be used to read and write data to the specified resource referred by the URL.
+
+
+
 ### 6. a) Write a program to connect to a database using JDBC. Assume that database name is test Db and it has table named employee with 2 records.
 
 ### 6. b) Explain different types of JDBC drives. 
