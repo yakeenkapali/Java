@@ -1,11 +1,11 @@
 import java.awt.event.*;
 import javax.swing.*;
 
-class ByImplementing extends JFrame implements ActionListener{
+class ByWithinClass extends JFrame implements ActionListener{
 	JButton b1;
 	JTextField t1;
 	
-	ByImplementing(){
+	ByWithinClass(){
 		
 	t1 = new JTextField();
 	b1 = new JButton("Click");
@@ -30,6 +30,6 @@ class ByImplementing extends JFrame implements ActionListener{
 	}
 	
 	public static void main(String[] args){
-		new ByImplementing();
+		new ByWithinClass();
 	}
 }
