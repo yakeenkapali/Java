@@ -10,15 +10,15 @@ class ByImplementing extends JFrame implements ActionListener{
 	t1 = new JTextField();
 	b1 = new JButton("Click");
 	
-	t1.setBounds(50,100, 300,30);
-	b1.setBounds(50,200, 100,100);
+	t1.setBounds(50,100, 350,30);
+	b1.setBounds(50,200, 80,50);
 	
 	add(t1);
 	add(b1);
 	
 	b1.addActionListener(this);
 	
-	setSize(400,400);  
+	setSize(500,500);  
 	setLayout(null);  
 	setVisible(true);
 	
